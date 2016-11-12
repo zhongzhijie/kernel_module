@@ -1,0 +1,1 @@
+cmd_/mnt/share/Code/Basic/kernelModule/print_pid.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /mnt/share/Code/Basic/kernelModule/print_pid.ko /mnt/share/Code/Basic/kernelModule/print_pid.o /mnt/share/Code/Basic/kernelModule/print_pid.mod.o
